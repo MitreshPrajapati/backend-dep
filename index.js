@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/', (req,res)=>{
-    console.log('Welcome to Home Page');
+    res.send('Welcome to Home Page');
 })
 
 app.listen(PORT, ()=>{
